@@ -1,7 +1,9 @@
 # Income-Prediction
 The purpose of this project is to implement and compare the performance of three classification models: KNN, SVM and decision tree.
-For the implementation of these models, a dataset has been considered, the purpose of which is to predict people's income according to
-The characteristics of people in this data collection. This dataset is placed in the Data folder. Data collection
-TrainDataset_Adult is intended for training models, which contains 32561 samples in two classes.
-are categorized. In this data set, the Income column contains labels and the rest of the columns are features that
-You should use them to implement the model
+For the implementation of these models, a data set has been considered, the purpose of which is to predict people's income according to the characteristics of the people in this data set. This dataset is placed in the Data folder. The dataset TrainDataset_Adult is considered for training the models, which contains 32561 samples that are categorized into two classes. In this data set, the Income column contains labels and the rest of the columns are features that you should use to implement the model.
+• In this project, you can use the ready models of the sklearn library to implement the models.
+• Visualize the training data set with the help of at least two graph models and analyze them.
+• Due to the presence of missing values (Null) in this data set, you should replace the Null values with suitable values or delete the corresponding column.
+• Since some columns contain categorical values, if you use them for model training, you must encode the values of these columns using existing methods and convert them into numerical values. Note that there are different methods for encoding categorical data, among which we can mention Encoding hot One and Encoding Label. Compare these two methods and explain which method can achieve better results and encode the data with the selected method.
+• If necessary, you can apply various pre-processing such as normalization, standardization, etc. on this data set before training the models.
+Finally, after training the models, use the TestDataset_Adult data set to evaluate the performance of the models and analyze the obtained results using the confusion matrix and the evaluation criteria of accuracy, precision, recall and score1-f. Note that for simplicity, you can get the confusion matrix and the evaluation criteria using ready-made sklearn functions.
